@@ -3,7 +3,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/Nostalgia546?logo=github&style=flat-square)](https://github.com/Nostalgia546)
 [![Visitors](https://komarev.com/ghpvc/?username=Nostalgia546&color=blueviolet&style=flat-square)](https://github.com/Nostalgia546)
 
-我是**前端开发者**，热爱构建优雅高效的Web应用，擅长将创意转化为代码 ✨
+我是**全栈开发工程师**，热爱构建优雅高效的Web应用，擅长将创意转化为代码 ✨
 
 ## 🛠 技术栈与工具
 
