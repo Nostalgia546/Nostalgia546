@@ -1,16 +1,20 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=20C997&center=true&vCenter=true&width=435&lines=Hi+there+%F0%9F%91%8B;I'm+Nostalgia546;A+Passionate+Developer;From+%3Ccountry%3E" alt="Typing SVG" />
+</div>
 
-<!--
-**Nostalgia546/Nostalgia546** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 🔮 Digital Alchemist
+```python
+class Nostalgia546:
+    def __init__(self):
+        self.username = "Nostalgia546"
+        self.primary_languages = ["Python", "JavaScript", "Java"]
+        self.current_obsessions = ["Generative AI", "Retro Computing", "Game Dev"]
+        self.favorite_tools = ["VSCode", "Blender", "Godot Engine"]
+        
+    def say_hello(self):
+        print("Let's build something timeless together!")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me = Nostalgia546()
+me.say_hello()
