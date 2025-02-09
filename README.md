@@ -26,14 +26,10 @@
 
 ## 🎯 精选项目
 
-### [项目1名称](项目链接)
+### [ChatTrail]((https://github.com/Nostalgia546/ChatTrail))
 ✨ 基于Vue + Node.js构建的[项目类型]  
-🛠 技术栈：Vue3 + Element Plus + Express  
-📌 核心功能：功能描述...
-
-### [项目2名称](项目链接)
-🎨 使用HTML5 + CSS3实现的[项目类型]  
-🚀 特色亮点：响应式设计、动画交互...
+🛠 技术栈：Vue3 + node.js
+📌 核心功能：集成AI聊天和AI绘画
 
 ---
 
