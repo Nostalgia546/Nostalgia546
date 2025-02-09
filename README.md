@@ -35,6 +35,6 @@
 - 文生图
 
 ## 🌌 与我联系
-[![Email](https://img.shields.io/badge/-官方邮箱-8B89CC?logo=protonmail&logoColor=white&style=for-the-badge)](mailto:your@email.com)
-[![QQ](https://img.shields.io/badge/-QQ-12B7F5?logo=tencent-qq&logoColor=white&style=for-the-badge)](https://wpa.qq.com/msgrd?v=3&uin=2338887777&site=qq&menu=yes)
-[![WeChat](https://img.shields.io/badge/-微信-07C160?logo=wechat&logoColor=white&style=for-the-badge)](https://your.link)
+[![Email](https://img.shields.io/badge/-官方邮箱-8B89CC?logo=protonmail&logoColor=white&style=for-the-badge)](mailto:2338887777@qq.com)
+[![QQ](https://img.shields.io/badge/-QQ-12B7F5?logo=tencent-qq&logoColor=white&style=for-the-badge)](https://wpa.qq.com/msgrd?v=3&uin=你的QQ号&site=qq&menu=yes)
+[![WeChat](https://img.shields.io/badge/-微信-07C160?logo=wechat&logoColor=white&style=for-the-badge)](https://cloud.lingyunlab.com/f/pYfA/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250209212334.jpg)
