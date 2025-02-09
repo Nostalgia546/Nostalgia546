@@ -25,6 +25,7 @@
 
 ## 📊 GitHub 数据
 [![GitHub Streak](https://streak-stats.demolab.com?user=Nostalgia546&theme=light&border_radius=6&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=light&border_radius=6)](https://github.com/Nostalgia546)
 
 ## 🚀 开源项目
