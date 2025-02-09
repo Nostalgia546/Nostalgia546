@@ -1,61 +1,45 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=20C997&center=true&vCenter=true&width=435&lines=Hi+there+%F0%9F%91%8B;I'm+Nostalgia546;A+Passionate+Developer;From+%3Ccountry%3E" alt="Typing SVG" />
-</div>
+# 🚀 欢迎来到 Nostalgia546 的代码世界 💻
+
+[![GitHub followers](https://img.shields.io/github/followers/Nostalgia546?logo=github&style=flat-square)](https://github.com/Nostalgia546)
+[![Visitors](https://komarev.com/ghpvc/?username=Nostalgia546&color=blueviolet&style=flat-square)](https://github.com/Nostalgia546)
+
+我是**前端开发者**，热爱构建优雅高效的Web应用，擅长将创意转化为代码 ✨
+
+## 🛠 技术栈与工具
+
+#### 核心能力
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
+
+#### 开发工具
+![VS Code](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git)
+![NPM](https://img.shields.io/badge/-NPM-CB3837?logo=npm)
+
+## 📈 GitHub 数据看板
+
+[![Nostalgia546's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nostalgia546&show_icons=true&theme=radical)](https://github.com/Nostalgia546)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=radical)](https://github.com/Nostalgia546)
+
+## 🎯 精选项目
+
+### [项目1名称](项目链接)
+✨ 基于Vue + Node.js构建的[项目类型]  
+🛠 技术栈：Vue3 + Element Plus + Express  
+📌 核心功能：功能描述...
+
+### [项目2名称](项目链接)
+🎨 使用HTML5 + CSS3实现的[项目类型]  
+🚀 特色亮点：响应式设计、动画交互...
 
 ---
 
-### 🔮 Digital Alchemist
-```python
-class Nostalgia546:
-    def __init__(self):
-        self.username = "Nostalgia546"
-        self.primary_languages = ["Python", "JavaScript", "Java"]
-        self.current_obsessions = ["Generative AI", "Retro Computing", "Game Dev"]
-        self.favorite_tools = ["VSCode", "Blender", "Godot Engine"]
-        
-    def say_hello(self):
-        print("Let's build something timeless together!")
+## 📬 联系我
 
-me = Nostalgia546()
-me.say_hello()
-🛠️ Tech Stack
-Python
-JavaScript
-Java
-React
-Docker
+[![Gmail](https://img.shields.io/badge/-Gmail-EA4335?logo=gmail&logoColor=white)](mailto:你的邮箱)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)](https://github.com/Nostalgia546)
 
-🎯 GitHub Highlights
-GitHub Streak
-
-Nostalgia546's GitHub Stats
-
-🌌 Featured Projects
-Readme Card
-Readme Card
-
-📫 Retro Connections
-Gmail
-Twitter
-Steam
-
-Snake animation
-
-复制
-
-使用说明：
-1. 将 `<country>` 替换为你的国家
-2. 将 `<your-repo>` 替换为你想要展示的仓库名称
-3. 在联系方式部分替换 `<your-email>` 和 `<your-handle>` 等信息
-4. 建议添加你自己的项目卡片和成就徽章
-
-这个模板包含以下特色：
-- 动态打字效果横幅
-- Python 风格的代码块自我介绍
-- 交互式统计卡片
-- 贪吃蛇贡献图动画
-- 可自定义的社交联系方式
-- 项目展示卡片
-- 夜间模式友好配色
-
-效果预览：https://github-readme-md-template.preview (注：此为示意链接，实际效果需在GitHub查看)
+> "代码就像诗歌，既要工整对仗，也要意境深远。" 💡
