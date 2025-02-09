@@ -1,6 +1,6 @@
 # 🚀 欢迎来到 Nostalgia546 的代码世界 💻
 [![GitHub followers](https://img.shields.io/github/followers/Nostalgia546?logo=github&style=for-the-badge&color=6e5494&labelColor=0D1117)](https://github.com/Nostalgia546)
-![Visitors](https://komarev.com/ghpvc/?username=Nostalgia546&style=for-the-badge&color=6e5494&label=TRADASDASD)
+![Visitors](https://komarev.com/ghpvc/?username=Nostalgia546&style=for-the-badge&color=6e5494&label=Page view)
 **全栈开发工程师** | 用代码编织数字世界的造梦者 ✨
 > "代码就像诗歌，既要工整对仗，也要意境深远。" —— 我的开发哲学
 
