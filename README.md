@@ -22,7 +22,7 @@
 ## 📈 GitHub 数据看板
 
 [![Nostalgia546's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nostalgia546&show_icons=true&theme=radical)](https://github.com/Nostalgia546)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=radical)](https://github.com/Nostalgia546)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=radical?cache_seconds=86400)](https://github.com/Nostalgia546)
 
 ## 🎯 精选项目
 
