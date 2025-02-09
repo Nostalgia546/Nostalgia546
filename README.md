@@ -23,10 +23,14 @@
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
 ![VS Code](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=flat)
 
-## 📊 GitHub 数据
-[![GitHub Streak](https://streak-stats.demolab.com?user=Nostalgia546&theme=light&border_radius=6&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=light&border_radius=6)](https://github.com/Nostalgia546)
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">
+  <div>
+    <img src="https://streak-stats.demolab.com?user=Nostalgia546&theme=light&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak">
+  </div>
+  <div>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=light&border_radius=6" alt="Top Langs">
+  </div>
+</div>
 
 ## 🚀 开源项目
 ### [ChatTrail](https://github.com/Nostalgia546/ChatTrail) ✨
