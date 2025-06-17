@@ -36,6 +36,6 @@
 - 上下文感知聊天引擎 
 - 文生图
 
-### [ChatTrail](https://github.com/Nostalgia546/2FAuth-app) ✨
+### [2FAuth-app](https://github.com/Nostalgia546/2FAuth-app) ✨
 **2Fauth api版本** | Vue3 + Node.js +tuari2.0
 通过token和服务器地址登录，通过api来查看以及编辑2FAuth的账户信息
