@@ -29,6 +29,13 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=light&border_radius=6)](https://github.com/Nostalgia546)
 
 ## 🚀 开源项目
+### [Antigravity-Booster](https://github.com/Nostalgia546/Antigravity-Booster) ✨
+**Antigravity辅助工具** Vue3+Tauri2.0
+- 解决Antigravity不遵循系统代理的问题
+- 多账号管理
+- 余量查询
+- 使用记录
+
 ### [ChatTrail](https://github.com/Nostalgia546/ChatTrail) ✨
 **AI整合软件** | Vue3 + Node.js  
 🔮 整合AI聊天和AI绘画：AI聊天 × AI绘画  
