@@ -30,7 +30,7 @@
 
 ## 🚀 开源项目
 ### [Antigravity-Booster](https://github.com/Nostalgia546/Antigravity-Booster) ✨
-**Antigravity辅助工具** Vue3+Tauri2.0
+**Antigravity辅助工具** | Vue3+Tauri2.0
 - 解决Antigravity不遵循系统代理的问题
 - 多账号管理
 - 余量查询
