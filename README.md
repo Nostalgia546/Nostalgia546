@@ -1,38 +1,56 @@
+<div align="center">
+
 # Nostalgia546
 
-[![GitHub followers](https://img.shields.io/github/followers/Nostalgia546?logo=github&style=for-the-badge&color=6e5494&labelColor=0D1117)](https://github.com/Nostalgia546)
-![Visitors](https://komarev.com/ghpvc/?username=Nostalgia546&style=for-the-badge&color=6e5494&label=PAGEVIEW)
+<a href="https://github.com/Nostalgia546">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Vue3+%7C+Node.js+%7C+Tauri;Focus+on+Web+Apps+%26+Tools" alt="Typing SVG" />
+</a>
 
-**全栈开发工程师**
+<br/>
+
+[![GitHub followers](https://img.shields.io/github/followers/Nostalgia546?logo=github&style=for-the-badge&color=2ea043&labelColor=0D1117)](https://github.com/Nostalgia546)
+![Visitors](https://komarev.com/ghpvc/?username=Nostalgia546&style=for-the-badge&color=2ea043&label=PAGEVIEW)
 
 专注于构建高效、可扩展的 Web 应用及工具，致力于提升用户体验与开发效率。
 
+---
+
 ## 技术栈
 
-### 前端
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white&style=flat)
-![微信小程序](https://img.shields.io/badge/-微信小程序-07C160?logo=wechat&logoColor=white&style=flat)
-![微信小游戏](https://img.shields.io/badge/-微信小游戏-07C160?logo=wechat&logoColor=white&style=flat)
+<p align="center">
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-微信小程序-07C160?logo=wechat&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-微信小游戏-07C160?logo=wechat&logoColor=white&style=for-the-badge" />
+  <br/>
+  <img src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge" />
+</p>
 
-### 后端
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat)
-
-### 开发工具
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
-![VS Code](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=flat)
+---
 
 ## GitHub 数据
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Nostalgia546&theme=light&border_radius=6&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats) 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Nostalgia546&theme=tokyonight&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=tokyonight&border_radius=6" alt="Top Langs" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nostalgia546&theme=tokyonight" alt="Activity Graph" />
+</p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=light&border_radius=6)](https://github.com/Nostalgia546)
+---
 
 ## 开源项目
+
+</div>
 
 ### [Antigravity-Booster](https://github.com/Nostalgia546/Antigravity-Booster)
 **Antigravity 辅助工具** | Vue3 + Tauri 2.0
