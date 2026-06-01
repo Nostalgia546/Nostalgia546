@@ -3,12 +3,12 @@
 # Nostalgia546
 
 <a href="https://github.com/Nostalgia546">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Vue3+%7C+Node.js+%7C+Tauri;Focus+on+Web+Apps+%26+Tools" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F80ED&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Vue3+%7C+Node.js+%7C+Tauri;Focus+on+Web+Apps+%26+Tools" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/Nostalgia546?logo=github&style=for-the-badge&color=2ea043&labelColor=0D1117)](https://github.com/Nostalgia546)
+[![GitHub followers](https://img.shields.io/github/followers/Nostalgia546?logo=github&style=for-the-badge&color=2ea043&labelColor=555555)](https://github.com/Nostalgia546)
 ![Visitors](https://komarev.com/ghpvc/?username=Nostalgia546&style=for-the-badge&color=2ea043&label=PAGEVIEW)
 
 专注于构建高效、可扩展的 Web 应用及工具，致力于提升用户体验与开发效率。
@@ -37,13 +37,13 @@
 ## GitHub 数据
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Nostalgia546&theme=github-dark&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Nostalgia546&theme=minimal&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=github-dark&border_radius=6" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=minimal&border_radius=6" alt="Top Langs" />
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nostalgia546&theme=github-dark" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nostalgia546&theme=minimal" alt="Activity Graph" />
 </p>
 
 ---
