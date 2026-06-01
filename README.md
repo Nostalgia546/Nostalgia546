@@ -37,6 +37,9 @@
 ## GitHub 数据
 
 <p align="center">
+  <img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" />
+</p>
+<p align="center">
   <img src="https://streak-stats.demolab.com?user=Nostalgia546&theme=minimal&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </p>
 <p align="center">
