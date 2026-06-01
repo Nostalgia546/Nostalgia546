@@ -37,13 +37,13 @@
 ## GitHub 数据
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Nostalgia546&theme=tokyonight&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Nostalgia546&theme=github-dark&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=tokyonight&border_radius=6" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=github-dark&border_radius=6" alt="Top Langs" />
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nostalgia546&theme=tokyonight" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nostalgia546&theme=github-dark" alt="Activity Graph" />
 </p>
 
 ---
