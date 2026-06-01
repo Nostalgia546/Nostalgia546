@@ -1,11 +1,14 @@
-# 🚀 欢迎来到 Nostalgia546 的代码世界 💻
+# Nostalgia546
+
 [![GitHub followers](https://img.shields.io/github/followers/Nostalgia546?logo=github&style=for-the-badge&color=6e5494&labelColor=0D1117)](https://github.com/Nostalgia546)
 ![Visitors](https://komarev.com/ghpvc/?username=Nostalgia546&style=for-the-badge&color=6e5494&label=PAGEVIEW)
 
-**全栈开发工程师** | 用代码编织数字世界的造梦者 ✨
-> "代码就像诗歌，既要工整对仗，也要意境深远。" —— 我的开发哲学
+**全栈开发工程师**
 
-## 🛠️ 技术种类
+专注于构建高效、可扩展的 Web 应用及工具，致力于提升用户体验与开发效率。
+
+## 技术栈
+
 ### 前端
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
@@ -23,26 +26,28 @@
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
 ![VS Code](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=flat)
 
-## 📊 GitHub 数据 
+## GitHub 数据
+
 [![GitHub Streak](https://streak-stats.demolab.com?user=Nostalgia546&theme=light&border_radius=6&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats) 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nostalgia546&layout=compact&theme=light&border_radius=6)](https://github.com/Nostalgia546)
 
-## 🚀 开源项目
-### [Antigravity-Booster](https://github.com/Nostalgia546/Antigravity-Booster) ✨
-**Antigravity辅助工具** | Vue3+Tauri2.0
-- 解决Antigravity不遵循系统代理的问题
-- 多账号管理
-- 余量查询
-- 使用记录
+## 开源项目
 
-### [ChatTrail](https://github.com/Nostalgia546/ChatTrail) ✨
-**AI整合软件** | Vue3 + Node.js  
-🔮 整合AI聊天和AI绘画：AI聊天 × AI绘画  
-🎯 功能：  
-- 上下文感知聊天引擎 
-- 文生图
+### [Antigravity-Booster](https://github.com/Nostalgia546/Antigravity-Booster)
+**Antigravity 辅助工具** | Vue3 + Tauri 2.0
+- 解决 Antigravity 不遵循系统代理的问题
+- 支持多账号管理
+- 提供余量查询功能
+- 记录历史使用情况
 
-### [2FAuth-app](https://github.com/Nostalgia546/2FAuth-app) ✨
-**2Fauth api版本** | Vue3 + Node.js +tuari2.0  
--使用token和服务器地址登录，通过api来查看以及编辑2FAuth的账户信息
+### [ChatTrail](https://github.com/Nostalgia546/ChatTrail)
+**AI 整合客户端** | Vue3 + Node.js  
+- 集成上下文感知聊天引擎
+- 支持 AI 文本生成图像功能
+- 致力于提供一体化的 AI 交互体验
+
+### [2FAuth-app](https://github.com/Nostalgia546/2FAuth-app)
+**2FAuth 桌面客户端** | Vue3 + Node.js + Tauri 2.0  
+- 基于 Token 和服务器地址的安全登录
+- 通过 API 方式查看和管理 2FAuth 账户信息
