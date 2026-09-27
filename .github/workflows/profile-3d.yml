@@ -1,27 +1,58 @@
-name: GitHub-Profile-3D-Contrib
+name: 更新个人主页
 
 on:
-  schedule: 
+  schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-metrics-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  build:
+  refresh:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: actions/checkout@v7.0.1
+      - name: 检查统计授权
+        id: auth
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated 3d contrib"
-          git push
+          if [ -n "$PROFILE_STATS_TOKEN" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "未配置统计授权，保留已有图片。"
+          fi
+      - uses: actions/setup-python@v7.0.0
+        if: steps.auth.outputs.ready == 'true'
+        with:
+          python-version: '3.12'
+      - name: 安装绘图依赖
+        if: steps.auth.outputs.ready == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python -m pip install -r requirements-profile.txt
+      - name: 生成匿名汇总与图片
+        if: steps.auth.outputs.ready == 'true'
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: |
+          python scripts/collect_profile.py
+          python scripts/render_profile.py
+      - name: 保存更新
+        if: steps.auth.outputs.ready == 'true'
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -- data/profile.json assets/header.png assets/activity.gif assets/activity.png
+          if ! git diff --cached --quiet; then
+            git commit -m "更新个人主页统计"
+            git push
+          fi
