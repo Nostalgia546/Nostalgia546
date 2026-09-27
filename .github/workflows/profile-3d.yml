@@ -32,6 +32,18 @@ jobs:
         if: steps.auth.outputs.ready == 'true'
         with:
           python-version: '3.12'
+      - name: 获取原版 3D 图渲染器
+        if: steps.auth.outputs.ready == 'true'
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: yoshi389111/github-profile-3d-contrib
+          ref: fd54cf20784ed9a86dc7be48bb5eb1f74e92b4f8
+          path: .profile-renderer
+          persist-credentials: false
+      - name: 安装原版图表依赖
+        if: steps.auth.outputs.ready == 'true'
+        working-directory: .profile-renderer
+        run: npm ci --ignore-scripts --no-audit --no-fund --loglevel=error --registry=https://registry.npmjs.org
       - name: 安装绘图依赖
         if: steps.auth.outputs.ready == 'true'
         run: |
@@ -45,13 +57,17 @@ jobs:
           PROFILE_LOGIN: ${{ github.repository_owner }}
         run: |
           python scripts/collect_profile.py
-          python scripts/render_profile.py
+      - name: 渲染原版统计卡片
+        if: steps.auth.outputs.ready == 'true'
+        run: |
+          python scripts/render_classic_cards.py
+          node scripts/render_original_3d.cjs .profile-renderer
       - name: 保存更新
         if: steps.auth.outputs.ready == 'true'
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add -- data/profile.json assets/header.png assets/activity.gif assets/activity.png
+          git add -- data/profile.json assets/classic-* profile-3d-contrib/profile-green.svg profile-3d-contrib/profile-green-animate.svg
           if ! git diff --cached --quiet; then
             git commit -m "更新个人主页统计"
             git push

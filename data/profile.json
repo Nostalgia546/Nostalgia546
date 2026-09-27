@@ -1488,6 +1488,37 @@
   "excluded_languages": [
     "C++"
   ],
+  "language_colors": {
+    "HTML": "#e34c26",
+    "JavaScript": "#f1e05a",
+    "Vue": "#41b883",
+    "CSS": "#663399",
+    "Python": "#3572A5",
+    "Rust": "#dea584",
+    "Kotlin": "#A97BFF",
+    "Batchfile": "#C1F12E",
+    "TypeScript": "#3178c6",
+    "Makefile": "#427819",
+    "Assembly": "#6E4C13",
+    "C": "#555555",
+    "C#": "#7355dd",
+    "CMake": "#DA3434",
+    "Dart": "#00B4AB",
+    "Dockerfile": "#384d54",
+    "PLpgSQL": "#336790",
+    "Shell": "#89e051",
+    "SCSS": "#c6538c",
+    "PowerShell": "#012456"
+  },
+  "contribution_totals": {
+    "totalCommitContributions": 63,
+    "totalIssueContributions": 1,
+    "totalPullRequestContributions": 0,
+    "totalPullRequestReviewContributions": 0,
+    "totalRepositoryContributions": 1
+  },
+  "stars": 8,
+  "forks": 0,
   "scope": "owned non-fork repositories visible to the authorized token",
   "includes_private": true
 }

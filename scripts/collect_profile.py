@@ -11,11 +11,13 @@ ROOT = Path(__file__).resolve().parents[1]
 QUERY = '''query($login:String!, $after:String) {
   user(login:$login) {
     contributionsCollection {
+      totalCommitContributions totalIssueContributions totalPullRequestContributions
+      totalPullRequestReviewContributions totalRepositoryContributions
       contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } }
     }
     repositories(first:100,after:$after,ownerAffiliations:OWNER,isFork:false) {
       pageInfo { hasNextPage endCursor }
-      nodes { isPrivate languages(first:100) { totalCount edges { size node { name } } } }
+      nodes { isPrivate stargazerCount forkCount languages(first:100) { totalCount edges { size node { name color } } } }
     }
   }
 }'''
@@ -27,6 +29,7 @@ def collect():
         raise ValueError('PROFILE_STATS_TOKEN is required; existing snapshot was preserved.')
     login = os.environ.get('PROFILE_LOGIN', 'Nostalgia546')
     languages, after, private = {}, None, False
+    colors, totals, stars, forks = {}, {}, 0, 0
     calendar = None
     while True:
         request = urllib.request.Request(
@@ -42,14 +45,20 @@ def collect():
         user = result['data']['user']
         if calendar is None:
             calendar = user['contributionsCollection']['contributionCalendar']
+            totals = {key: value for key, value in user['contributionsCollection'].items()
+                      if key.startswith('total')}
         repos = user['repositories']
         for repo in repos['nodes']:
             private |= repo['isPrivate']
+            stars += repo['stargazerCount']
+            forks += repo['forkCount']
             if repo['languages']['totalCount'] > len(repo['languages']['edges']):
                 raise ValueError('Language pagination is required; snapshot preserved.')
             for edge in repo['languages']['edges']:
                 name = edge['node']['name']
                 languages[name] = languages.get(name, 0) + edge['size']
+                if name != 'C++':
+                    colors[name] = edge['node']['color'] or '#777777'
         if not repos['pageInfo']['hasNextPage']:
             break
         after = repos['pageInfo']['endCursor']
@@ -63,6 +72,10 @@ def collect():
         'languages': dict(sorted(((name, size) for name, size in languages.items() if name != 'C++'),
                                  key=lambda item: item[1], reverse=True)),
         'excluded_languages': ['C++'],
+        'language_colors': colors,
+        'contribution_totals': totals,
+        'stars': stars,
+        'forks': forks,
         'scope': 'owned non-fork repositories visible to the authorized token',
         'includes_private': private,
     }
